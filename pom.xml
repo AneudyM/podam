@@ -154,6 +154,13 @@
 
 
 	<build>
+	        <repositories>
+                        <repository>
+                                <id>my-repo</id>
+                                <name>Eclipse EGit Repo</name>
+                                <url>https://repo.eclipse.org/content/repositories/egit-releases/</url>
+                        </repository>
+                </repositories>
 		<extensions>
 			<extension>
 				<groupId>org.apache.maven.scm</groupId>
